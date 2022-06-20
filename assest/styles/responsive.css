@@ -1,0 +1,21 @@
+@media screen and (max-width: 880px) {
+    .main_header_wrapper .main_section .header_wrapper {
+        flex-direction: column;
+        width: 100%;
+    }
+    .main_header_wrapper .main_section .header_left {
+        display: flex;
+        width: 100%;
+    }
+    .main_header_wrapper .main_header .header_right {
+        background-color: rgb(57, 126, 126);
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        padding: 10px 0;
+    }
+    .main_header_wrapper .main_header .header_wrapper.header_right a {
+        display: flex;
+    }
+}
